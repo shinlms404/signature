@@ -27,18 +27,11 @@
           class="text-3xl font-bold mb-1"
           :class="{ 'text-blue-400': darkMode, 'text-blue-600': !darkMode }"
         >
-          <div
-            data-v-938b83b0=""
-            class="w-full flex items-center justify-center min-h-20 signature-content bg-transparent"
-          >
+          <div data-v-938b83b0="" class="min-h-15 bg-transparent">
             <div
               data-v-938b83b0=""
               class="text italic text-4xl"
-              style="
-                font-family: 'Dancing Script';
-                font-style: italic;
-                font-weight: normal;
-              "
+              style="font-family: 'Dancing Script'"
             >
               <span data-v-938b83b0="" class="px-1">Signature Generator</span>
             </div>
@@ -283,7 +276,7 @@ const exportAsPNG = async () => {
 
     const link = document.createElement("a");
     link.download = `signature-${Date.now()}.png`;
-    link.href = canvas.toDataURL("image/jpg");
+    link.href = canvas.toDataURL("image/png");
     link.click();
   } catch (err) {
     console.error("PNG导出失败:", err);
