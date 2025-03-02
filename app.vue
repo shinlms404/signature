@@ -9,7 +9,7 @@
     <div class="w-full flex justify-end mb-4">
       <button
         @click="toggleDarkMode"
-        class="p-4 transition-colors duration-200"
+        class="p-5 transition-colors duration-200 text-xl"
       >
         {{ darkMode ? "☀️" : "🌙" }}
       </button>
