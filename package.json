@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@fontsource/caveat": "^5.2.5",
+    "@fontsource/dancing-script": "^5.2.5",
+    "@fontsource/indie-flower": "^5.2.5",
+    "@fontsource/kalam": "^5.2.5",
+    "@fontsource/pacifico": "^5.2.5",
+    "@fontsource/poppins": "^5.2.5",
+    "@fontsource/reenie-beanie": "^5.2.5",
+    "@fontsource/roboto": "^5.2.5",
+    "@fontsource/satisfy": "^5.2.5",
+    "@fontsource/sedgwick-ave": "^5.2.5",
+    "@fontsource/vibes": "^5.2.5",
+    "@nuxtjs/tailwindcss": "^6.13.1",
+    "html2canvas": "^1.4.1",
+    "image-conversion": "^2.1.1",
+    "jspdf": "^3.0.0",
+    "nuxt": "^3.15.4",
+    "vue": "latest",
+    "vue-router": "latest"
+  }
+}
