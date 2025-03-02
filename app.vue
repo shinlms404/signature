@@ -201,7 +201,7 @@
 import { ref, computed } from "vue";
 import html2canvas from "html2canvas";
 
-const name = ref("Charlie");
+const name = ref("");
 const selectedFont = ref("Dancing Script");
 const signatureGenerated = ref(true);
 const darkMode = ref(false);
